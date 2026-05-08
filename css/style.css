@@ -17,7 +17,7 @@
   --maxw:      72rem;
 }
 
-img:nth-of-type(odd) {
+figure:nth-of-type(odd) img {
   -webkit-mask-image: url(../photos/w3logo.png);
   mask-image: url(../photos/w3logo.png);
   mask-repeat: no-repeat;    
