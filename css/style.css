@@ -17,7 +17,11 @@
   --maxw:      72rem;
 }
 
-
+img:nth-of-type(odd) {
+  -webkit-mask-image: url(../photos/w3logo.png);
+  mask-image: url(../photos/w3logo.png);
+  mask-repeat: no-repeat;    
+}
 /* =============================================================
    1. STICKY HEADER  — TODO: make this stick to the top of viewport.
       It must be LARGE (use generous padding) and stay visible
